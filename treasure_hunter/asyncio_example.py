@@ -18,7 +18,6 @@ async def read_file(i):
         if a[0] == "Treasure\n":
             treasure_found = i
             return
-    # await asyncio.sleep(0.1)
 
 
 async def find_treasure(start, end):
